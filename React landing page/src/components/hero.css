@@ -1,0 +1,18 @@
+/* Global box-sizing and reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hero section with background image */
+.hero {
+  position: relative; /* To position the ::after pseudo-element absolutely */
+  background-image: url("../assets/intro-bg.jpeg");
+  height: 90vh; /* Adjust the height as necessary */
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+/* Black overlay over the entire image */

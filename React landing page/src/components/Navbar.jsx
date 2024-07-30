@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className="flex justify-evenly h-24px py-5 bg-slate-100">
+    <div className="flex justify-evenly h-24px py-5 bg-white">
       <div className="text-center">
         <h1 className=" font-bold  text-3xl">REACT LANDING PAGE</h1>
       </div>
